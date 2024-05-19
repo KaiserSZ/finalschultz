@@ -223,6 +223,18 @@ header {
     margin: 10px;
     gap: 20px;
 }
+#servicios{
+    border: solid 2px;
+}
+#mensaje{
+    border: solid 2px;
+}
+#enviar {
+    font-weight: bold;
+    width: 500px;
+    background-color: #E19477;
+    color: white;
+    }
 .datos {
     list-style-type: none;
 }
