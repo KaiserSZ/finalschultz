@@ -122,7 +122,9 @@ header {
 }
 .conocenos{
     display: flex;
-    gap: 50px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
     margin: 0 10 20 20;
 }
 .guia{
