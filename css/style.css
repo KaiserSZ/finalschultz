@@ -420,3 +420,7 @@ input {
     color: black;
     font-weight: bold;
   }
+  .lista-redes{
+    align-items: center;
+    text-align: center;
+  }
