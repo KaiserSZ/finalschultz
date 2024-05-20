@@ -217,9 +217,9 @@ header {
   
   .turnos h2 {
     text-align: center;
-    background-color: ;
     margin-bottom: 20px;
     border-radius: 15px;
+    width: ;
   }
   
   .agenda {
@@ -261,7 +261,7 @@ header {
       width: 100%;
       padding: 15px;
       font-size: 18px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
     }
   
     .textoagenda {
@@ -331,3 +331,92 @@ label {
 input {
     width: 500px;
 }
+.footer {
+    background-color: #FBDCD1;
+    color: #333;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 0;
+  }
+  
+  .footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p, .footer-section ul, .footer-section li {
+    margin: 5px 0;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #007bff;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 20px;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+  }
+  .footer-datos{
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .footer-section {
+      text-align: center;
+    }
+  }
+  .enlaces{
+    text-align: center;
+  }
+  .copy{
+    font-weight: bold;
+  }
+  .whatsapp {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  .facebook{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  .insta{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
